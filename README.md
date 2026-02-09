@@ -60,4 +60,27 @@ Decision making:-
         if-else statement
         if-else-if ladder
         Nested if-statement
+-------------------
+Loop Statement:-
+-------------------
+    Instated of writing the same logic multiple time to execute the result jva gives us Loop which used to execute multiple time depending the condition it given and while the condition fails the loop stops its execution.
+    In Java Loop are of 4 types:
+        "For" Loop.
+        "For-each"  Loop.
+        "While" Loop.
+        "do-While" Loop.
+ 
+    For Loop:- In this loop We Innitialize the loop first, then the condition and then the incriment or 
+                decrement in the same line of the code.It is used for fixed number.
+
+    For-each Loop:- this is a  modified version of for loop where it is used in most of the data structures such as array and collections. Where we donot need to innitalize the variables.
+
+    While Loop:-While the destination is unknown the while loop is used to iterate.
+                Here the innitialization takes place outside the loop.
+
+    do-While Loop:-The do-while loop checks the condition at the end of the loop after executing the loop statements. When the number of iteration is not known and we have to execute the loop at least once, we can use do-while loop.
+
+
+
+
 
