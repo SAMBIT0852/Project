@@ -84,10 +84,29 @@ Jump Statement:-
 --------------------
     In jumpstatement the current execution of the program is trnsfered to the next statement based upon some statements.
     It is of two types such as break statement and continue statement.
-    
+
     In break statement is used to break the current execution of thr program to shift in to the next flow and it is uded in side a loop or inside a switch statement.
 
     In Continue statement the execution of the current program simply bypass and move to the next next part.
+---------------------------------
+Object Oriented Programing(OOP):
+---------------------------------
+    In Java all things are treated as object means a real world entity and programing means the methodology or approch to solve the problem.
+
+    It is of Fourtypes Such as :
+
+    1.Inheritance:- When one class acquires the properties and behaviour of the super class or parent 
+                    class is known as Inheritance it is like a parent child relation ship.
+
+                    -It is of 5 types such as :-
+                        -Single Inheritance:- when one base class is derived from one parent class only.
+                        -Multiple Inheritance:- When one basae class is derived from more than one 
+                                                parent class. It is not possible practicallty so java
+                                                uses the concept of interface to achive this.
+                        -Multilevel Inheritance:-when a class is derived from another derived class.
+                        -Hiarchical Inheritance:- When multiple derived class is in herit from the single
+                                                    base class.
+                        -Hybrid Inheritance:- Combination of tweo or more types of inheritance.
 
 
 
