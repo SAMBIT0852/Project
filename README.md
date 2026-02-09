@@ -79,7 +79,15 @@ Loop Statement:-
                 Here the innitialization takes place outside the loop.
 
     do-While Loop:-The do-while loop checks the condition at the end of the loop after executing the loop statements. When the number of iteration is not known and we have to execute the loop at least once, we can use do-while loop.
+--------------------
+Jump Statement:-
+--------------------
+    In jumpstatement the current execution of the program is trnsfered to the next statement based upon some statements.
+    It is of two types such as break statement and continue statement.
+    
+    In break statement is used to break the current execution of thr program to shift in to the next flow and it is uded in side a loop or inside a switch statement.
 
+    In Continue statement the execution of the current program simply bypass and move to the next next part.
 
 
 
