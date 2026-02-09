@@ -1,0 +1,41 @@
+C-SHARP(#):
+    -What is c#?
+    -C# operating system.
+    -Basic programming.
+    -Use of if-else statements and if-elseif-else statements.
+    -use of operators.
+    -using of conditional operators.
+    -using of loops.
+        -While
+        -For
+    -method using.
+    -program related array
+    -fuction call by vallue,reference and output parameters.
+    -ascending and decending order of an array.
+    -max and min vallue of an array.
+    -all serching and sorting of an array.
+    -use of switch case statement.
+    -use of do while loop.
+    -use of break and continue statement.
+    -use of goto statement.
+    -Opps
+    -use of class and object.
+    -use of inheritance.
+Python:
+    -what is python.
+    -python operating system.
+    -Basic programming.
+    -Use of if-else statements and if-elif-else statements.
+    -use of operators.
+    -use of interactive statements and looping.
+        -While
+        -For
+    -use of assert in  programming.
+    -use of function in programming.
+    -strings in programming
+    -use of list,set,tuple,dictionary in programming(immutable and mutable).
+    -File and exception handeling in programming.
+    -use of class and object.
+    -use of inheritance.
+
+

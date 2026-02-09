@@ -1,0 +1,8 @@
+print(-3%-10+10<50 and 29>=29)
+print(7**2<=5//9%3 or 'bye'< 'Bye')
+print(3%-10<8 and -25>1*8//5)
+print(5**2//2+7>8 or 9!=10)
+print(2//3<6 and 'I am doing MCA' > 'I am not doing MCA')
+print(10+6*2**2!=9//4-3 and 29>=29/9)
+print('hello'*(5-1)>'hello' and 'college'<'collin')
+print(4%10+5//6>20%6)

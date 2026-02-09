@@ -1,0 +1,61 @@
+---Instalation of Git
+    -- git -version
+            -- git config --global user.name " Name"
+            -- git config --global user.email "Email"
+
+    -- Verify configuration
+            -- git config user.name
+            -- git config user.email
+
+    -- Initialize a Git repository
+            -- mkdir project-folder
+            -- cd project-folder
+            -- git init
+
+    -- status of the repository
+            -- git status
+
+    -- Create a new file
+            -- Create a new file and write code in it 
+            --   git add file name for commit
+
+    -- Commit changes with a message
+            -- git commit -m "Initial commit"
+
+    -- View commit history
+            -- git log
+
+    -- To Stage all changes
+             -- git add .
+
+    -- Commit modified files
+            -- git commit -m "Commit message"
+
+    -- Switch to a previous commit
+            -- git checkout <commit-name>
+
+    -- Return to the main branch
+            --  git checkout master
+
+    -- Create a new branch
+            -- git branch <name>
+            -- git checkout <name>
+
+    -- Create and switch to a feature branch(new)
+            -- git checkout -b feature/changes
+
+    -- Merge branches
+            --  git checkout <name>(new branch)
+            -- git merge feature/changes
+
+    -- Return to master and merge new branch
+            --  git checkout master
+            -- git merge <name>(new branch)
+
+    -- Create a ".gitignore" file
+             -- Add files to ".gitignore"
+            -- git add .gitignore
+            -- git commit -m "Add .gitignore"
+
+    -- Push to GitHub
+            -- git push -u origin master

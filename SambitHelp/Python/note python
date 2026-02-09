@@ -1,0 +1,241 @@
+# # --- Evolution of python
+#         # Python is given by Guido van Rossum in 1991. Python is a high-level, interpreted programming language that is widely used
+#         # for various purposes such as web development, scientific computing, data analysis, artificial intelligence, and more.
+#         # Python is known for its simplicity, readability, and ease of use, making it a popular choice among  
+#         # developers and non-technical users .
+#         # Python is a widely use  language that can be used for a wide range of applications, including:
+#         # #   Web Development, Scientific Computing, Data Analysis, Artificial Intelligence, Machine Learning.
+#         # #   Python is asses by anyone and is very easy to learn as coimpaired to other language.
+
+#         # It supports both processor oriented as well as object-oriented language so it is a high level language.
+#         # Python is a interpreted language which means that the code is not compiled before execution. It is first
+#         # interpreted by the interpreter and then executed.
+
+# # --- Mathematical operations
+#          # Python supports various mathematical operations such as addition, subtraction, multiplication, division, modulus, exponentiation
+#         # python always gives the division vallue in float 
+#         # means-8/4=2.0
+#         Pythgon always gives // operations vallue in integer type and always gives the quocient vallue
+#         # means-8//4=2
+#         # python always gives the exponentiation vallue in float type
+#         # means-8**2=64.0 it gives the power of the number
+
+# # --- Variables in python
+#         # Variables in python are used to store the values in the memory location. It is alike a contenor that stores 
+#          the value in it. 
+            # The vallue of the variable can be changed.
+            #(_) is used for the vallue of the previous operatins .
+            # To fetch charecter in a string [] this is used.
+            # If we use negative number to fetch then it will start counting from the right to left.
+            # To take out multiple charecter we use [:] this is used.
+            # To get the length of the string we use len() this is used.
+            
+# # --- List in Python
+           # List in python is a collection of the vallue that are  changeable. It means
+           # we can change the vallue of the list after we created.
+           # List is denoted by using [] this is used.
+           # To add two variables we use e.g. x=[variable1,variable2]
+           # To add a single variable we use e.g. x.append(variable)
+           # To get the vallue we just simply need x.
+           # To delete the vallue we use e.g. del x[0]
+           # To extend the vallue we use e.g. x.extend([variable])
+           # To insert the vallue we use e.g. x.insert(0,variable)
+           # To remove the vallue we use e.g. x.remove(variable)
+           # To get the minimum number we use e.g. x. min(variable)
+           # To get the maximum number we use e.g. x. max(variable)
+           # To get the sum of the number we use e.g. x. sum(variable)
+           # To sort the number we use e.g. x. sort().
+           
+# # --- Tuple in Python
+           # Tuple in python is a collection of the vallue that are not changeable. It
+           # means we can not change the vallue of the tuple after we created.
+           # Tuple is denoted by using () this is used.
+           # Tuple is faster than list
+           
+# # --- Dictionary in Python
+           # Dictionary in python is a collection of the vallue that are changeable. It
+           # means we can change the vallue of the dictionary after we created.
+           # Dictionary is denoted by using {} this is used.
+           # To add a key and value we use e.g. x[key]=value
+           # To get the vallue we use e.g. x[key]
+           # To delete the vallue we use e.g. del x[key]
+           # we can create the dictionary wit in a dictionary.
+           
+# # --- More on Variables Memory consumption
+            # In memory variables has its own memory location.
+            # the memory location of each variable is different unless they have the same data type or name.
+            # The memory consumption of the variable depends on the data type of the variable.
+            # The memory consumption of the variable is different for different data type.
+            # To no the memory location of the variable we use id(variable) this is used.
+            # To no the memory consumption of the variable we use sys.getsizeof(variable) this is used.
+            # if adata will not be used or tag  then it will be deleted from the memory location and goes to the garbage collection
+            # The garbage collection is a process that is used to free the memory location of the variable that
+            # is not used or tag. By this way Python is more memory efficient.
+            # The garbage collection is done by Python automatically.
+            # To know the type of the variable we use type(variable) this is used.
+            # We can also change the type of the variable by using typecasting. and we can create our one type.
+
+            
+ # # --- Data type in python
+            # In python we have the following data type
+            # 1. None
+            # 1. Int
+            # 2. Float
+            # 3. Complex
+            # 4. Boolean
+            # 5. String
+            # 6. List
+            # 7. Tuple
+            # 8. Set
+            # 9. Range
+            # 10. Dictionary
+            # None is nopthing but the variable which is not assing by any value.
+            # Int, float,complex, boolean, string are the numeric data type.
+            # List, tuple, set, range are the collection data type
+            # Dictionary is the mapping data type.
+            # to know the type of the variable we use type(variable) this is used.
+            # we can aalso fing the range in python using range() this is used..
+            # we can change the vallue from range to list using list(range(variable)) this is used.
+            # we can change the vallue from list to range using range(list) this is used.
+            # for dictionary we can use dict() this is used.
+            # dictionary has its own specific key s which we will assign.
+            # to get the keys which are using in the dictionary we use d . keys()
+            # to get the vallue which are using in the dictionary we use d . values()
+            # to get the key and vallue which are using in the dictionary we use d .
+            # List, tuple, set, string, range are comes undr the umbrala of sequence.
+
+ # # --- Operators
+            # In python we have the following operators
+            # 1. Arithmetic operators
+            # 2. Relational operators
+            # 3. Logical operators
+            # 4. Assignment operators
+            # 5. Bitwise operators
+            # 6. Unary operators
+            # Arithmatic operators are used to perform the mathematical operation like addition, subtraction,        multiplication, division etc.
+            # Relational operators are used to compare the two values.
+            # Logical operators are used to perform the logical operation like and, or, not etc.
+            # Assignment operators are used to assign the value to the variable
+            # Bitwise operators are used to perform the bitwise operation like and, or, not etc.
+            # Unary operators are used to perform the operation on a single operand.
+            # The precedency of the operators include Arithmatic operators > Relational operators > Logical operators > Assignment operators > Bitwise operators > Unary operators.
+            # The associativity of the operators include Left to right and right to left.
+            
+ # # --- Number convertion
+            # In python we have converted the number from decimal to binary, octal, hexadecimal and vice versa.
+            # To convert the number from decimal to binary we use bin() function.
+            # To convert the number from decimal to octal we use oct() function.
+            # To convert the number from decimal to hexadecimal we use hex() function.
+            # To convert binary to decimal we simple use 0b(binary numbere).
+            # To convert octal to decimal we simple use 0o(octal number).
+            # To convert hexadecimal to decimal we simple use 0x(hexadecimal number).
+
+ # # --- Bitwise operations
+            # In python following bit wse operations are used
+            # 1. Bitwise AND (&)
+            # 2. Bitwise OR (|)
+            # 3. Bitwise XOR (^)
+            # 4. Bitwise NOT (~) / Bitwise Complement
+            # 5. Bitwise Left Shift (<<)
+            # 6. Bitwise Right Shift (>>)
+            # Bitwise AND (&) is used to perform the AND operation on two bits.
+            # Bitwise OR (|) is used to perform the OR operation on two bits.
+            # Bitwise XOR (^) is used to perform the XOR operation on two bits.
+            # Bitwise NOT (~) / Bitwise Complement is used to perform the NOT operation on a bit.
+            # Bitwise Left Shift (<<) is used to shift the bits of the number to left.
+            # Bitwise Right Shift (>>) is used to shift the bits of the number to right.
+            # The Bitwise operations are used to perform the operation on the binary number.
+            # for bit wise left shift we can go as binary vallue and also by mathematical formula
+                e.g. 8<<2
+                      = 8*2^2.
+            # for bit wise right shift we can go as binary vallue and also by mathematical formula
+                e.g. 8>>2
+                      = 8/2^2.
+
+ # # --- Import math functions 
+            # In python we can not just type the mathmatical functions it well show us errors .
+            # So we have to import the math module to use the mathmatical functions.
+            # The math module is used to perform the mathematical operations like sin, cos, tan, sqrt, pow etc.
+            # if we vdont want to type import math then we will simply type"import math as m".
+            # by import math functoion we got the celling vallue as well as the floor vallue .the celling vallue is the immidiate next vallue of the number. and  the floor vallue is the immidiate upper vallue of the number.
+            # By import math function we can get the vallue of the constant number that is pi and epslon etc
+            # we can restrict the math functions from two or the limited functions like sqrt, pow etc. By doing
+                "from math.import sqrt, pow" function
+
+ # # --- Execution of code in pycharm
+            # Helps to run the code easily
+            # Helps to debug the code easily
+            # Helps to run the code in different modes like debug mode, run mode etc.
+            # Helps to run the code in different environments like local, remote etc.
+            # Helps to run the code in different operating systems like windows, linux etc.
+            # Helps to run the code in different python versions like python 2, python 3 etc.
+
+ # #  ---  if, else, elif, and nested if
+            # here we enter to the logical thinking part of the python code
+            # if is akeyword in python which is known as suite where we can write multiple stements 
+            to make it logicaly . it helps us to decision making either true or false.
+            # under the if statement what ever we put the logic or statement it will be exicuted and gives us the out put.
+            #to make the code logically stong and without repiting the if statement again again we use the else statement
+            # the else statement is used to perform the operation when the if statement is false.
+            # the elif statement is used to perform the operation when the if statement is false and it is under the if statement.
+            #indentation is required for the exicution of the if ,else , elif statements so inplace of using space we use the tab botton for the proper estimation of the indentation.
+            # nested if statements mean that a if statement in side a if statement like a nest so proper indation is required for the exicution of the statements.
+
+ # #  ---  Loop
+      --- While loop
+            # Loop is used to generate a number of statements in the loop that will be executed in the  current iteration   of  the loop .
+            # while loop is used to generate a number of statements where we don't no the how much time we want to execute the statements.
+                e.g when generating a password etc.
+            # for using loop we need three things thai is
+            1. initialization
+            2. condition
+            3. increment/decrement
+            # while loop is used to execute the statements in the loop until the condition is true .
+            # when the condition is false while loop exit.
+            #  that means while loop is used to execute the statements in the loop until the condition is false .
+            # We can use a while loop inside a while loop to generate a number of statements, which is called nested while loop.
+            # in nested while loop first initialization of the outer loop is start then the inner loop is run untils the inner loop is facing a condition which is false then the inner loop is exit. after tha the outer loop is exicuted then the process is repeted like this untill the the outer loop condition is not false .
+
+ # #  --- For loop
+            # Normaly for loop is used or work with the sequence like tuple, set, dictionary, string  and array where we know about the sepecific range of the sequence.
+            # for loop is used to execute the statements in the loop for a specific number of times.
+            # for using for loop we need three things such as starting point, ending point and increment/decrement.
+            # we can use the range concept in for loop.
+
+ # #   --- Break, Continue, pass.
+            # Break, Continue, pass these re mostly the keywords that are used in the loop for a specific number of times for run the program accodring to the user interest.
+            # Break is used to exit the loop when the condition is true. it will not executed the remaining part of the loop.
+            # Continue is used to continue the loop when the condition is true and it will executed the remaining part but left the true part of the loop.
+            # Pass is used to skip the current iteration of the loop and it will come out of the loop.
+            # we can use the break, continue, pass keywords in the for loop and while loop.
+            # we can use the break, continue, pass keywords in the nested loop.
+            
+            
+            
+
+
+            
+            
+
+            
+
+                
+
+            
+                      
+
+
+            
+
+
+
+            
+
+
+
+            
+           
+           
+           
+             
+  

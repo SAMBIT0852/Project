@@ -1,0 +1,56 @@
+--- 
+    - What I know
+    - What I must Know
+    - Topics
+        - Java
+        - DSA
+        - Spring
+            - Boot
+            - Security
+            - 
+        - DB
+            - SQL
+            - NoSQL
+        - Microservice
+        - Container
+            - Docker
+            - K8
+        - Testing
+            - Junit
+            - UI
+        - UI
+            - Angular 17
+            - React
+        - Tools
+            - Git
+            - Sonar
+            - Documentation
+            - Zira
+            - Pipeline creation
+                - Jenkins
+        - Cloud
+            - Azure
+            - AWS
+            - GCP
+        - Security
+            - Gen AI
+            - ML
+            - Deep learning
+            - Security Automation
+            - Cloud sec
+        - Apache
+            - Camel
+            - Flink
+            - Tomcat
+        - API Architecture
+            - REST
+            - GraphQL
+            - WebSocket
+            - GRPC
+            - MQTT
+            - Serverless
+    - Certificate
+        - Togaf
+        - CCDAK
+        - Cloud + Linux
+
