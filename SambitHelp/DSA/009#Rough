@@ -1,0 +1,51 @@
+Programming languages To Know
+    Performance speaks louder than words!
+    Go → blazing fast, lightweight, and memory efficient * ASP.NET → reliable, enterprise-ready, and steadily catching up
+    Node.js → powerful ecosystem, but sometimes weighed down by heavy dependencies
+    At the end of the day, there's no "one-size-fits-all" — the best choice depends on project needs, scalability goals, and team expertise.
+    What's your go-to backend stack for high-performance
+
+--- NetFlix Inside
+What happens when a server at Netflix dies... while you're binge-watching?
+At Netflix scale, failures aren't rare-they're expected.
+So how do they make sure your "Next Episode" button never breaks?
+They run Chaos Monkey.
+It's a tool that deliberately kills servers in production.
+Yes, you read that right-Netflix engineers break their own system on purpose.
+Why?
+Because if your system can survive chaos every day, it will survive real failures too.
+Lesson: Reliability isn't about preventing failure.
+It's about designing for failure.
+Next time you hit "Play" on Netflix, remember: behind that smooth stream is a battlefield of servers constantly failing, recovering, and healing-without you ever noticing.
+Would you dare to unleash a Chaos Monkey on your systems?
+
+
+--- NetFlix Inside Ends
+
+
+--- Pallavi School
+1 Adhvay Shivakanth
+2 Devyka
+3 Medhashree
+4 Parthvi
+5 Jivaansh
+6 Smruti
+7 Yamuna
+8 Taarush
+9 Aadya garg
+10 Aadya lokande
+11 Lishanth
+12 Aarav Singh
+13 Atharav
+14 Shambhavi
+15 Tridha Raj
+16 Ishana karn
+17 Nihanshi
+18 Vedant
+19 Ayansh Paliwal
+20 Samarth
+21 Anaira ghosh
+22 Aayansh
+23 Akshaine
+24 Tridev
+---

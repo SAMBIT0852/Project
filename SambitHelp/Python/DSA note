@@ -1,0 +1,27 @@
+--- Time Complexity 
+        -- Time complexity measures the time taken by an algorithm based on the length of input.
+        - Usage:
+             --  Used to compare the efficiency of different algorithms.
+             -- Helps determine the best algorithm when multiple solutions exist.
+
+--- Big O Notation
+        --Big O notation defines the upper bound of an algorithm's time complexity, 
+           showing the maximum time an algorithm could take for a given input size.
+        --Big O notation helps to ignore hardware speeds, focusing purely on algorithm efficiency.
+       
+       -- Examples of Big O Complexity
+            - 3n^2 + 5n → O(n²)
+            - n + 100 log n → O(n)
+            - 3n³ + 4n⁵ → O(n⁵)
+            - 10000 (constant) → O(1)
+
+        --General Rule:
+            - Keep only the highest degree term.
+            - Ignore constants in Big O notation.
+
+--- Different Notations
+        --Theta (Θ) Notation: Exact bound of an algorithm's performance.
+        --Omega (Ω) Notation: Lower bound of time complexity.
+        --Big O is most commonly used as it defines the upper bound, which is crucial for worst-case analysis.
+        --Theta and omega are less frequently used but provide more detailed information about an algorithm performance.
+        

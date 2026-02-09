@@ -1,0 +1,26 @@
+					PERSONAL DATABASE MANAGEMENT SYSTEM
+
+-Where it can store the personal data of a person like its work progress, todo task, his new idea where he can add new things, delete anything and also it help him as a personal tracker.
+
+-For this we need three things in the project -
+	1-Database:
+		-Where it stores the project data.
+		-for this want to use the NoSQL database because of its flexibility.(Mongodb)
+		
+
+	2-Backend:
+		-acts as a bridge between my frontend and database.
+		-spring Boot
+		-connect Spring Boot to mongoDB
+
+	3-Frontend:
+		-react
+		-featch data from Spring Boot .
+
+
+
+What i want to learn : MongoDB(Code with Harry)
+			Java(Telusko)
+			SpringBoot(?)
+			react(?)
+

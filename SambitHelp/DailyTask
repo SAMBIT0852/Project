@@ -1,0 +1,410 @@
+--- 31 Oct
+    - Math
+    - Prog
+        - C#
+        - Python
+        - Java
+        - Angular
+
+    - Commn(English)
+        - 
+    - Git commands
+    - Task
+        - Document How did u run python program?
+        - Commit all code's that u made in python // complited
+        - Document tell me about your self  // complited
+        - https://www.youtube.com/watch?v=uaeKhfhYE0U&pp=ygUYZ2l0IGZyb20gc2NyYXRjaCBpbiBydXN0
+            - Document this one  //complited
+        - I need a youtube for Python learning
+            - Abhijit Mishra
+            - For beginners
+                - https://www.youtube.com/watch?v=QXeEoD0pB3E&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3
+                - Create a roadmap
+            
+--- 3rd Oct
+    - Math 
+        - Set Theory
+    - Prog
+    - Commn(English)
+        - 
+    - Git commands
+        - git pull -u origin master
+
+--- 19-9-24
+    - 1.45 to 6.45
+    - B2
+    - 4 Sem
+        - 
+    - Game app
+    - Web page
+        
+--- 23 Sept
+    - Went 1st class
+    - Math 
+        - thinking - west and anjeko
+    - Prog
+        - C# - .Netframework
+            - Web devp
+        - Hello world prog
+        - 
+    - Commn(English)
+    - Electronics
+        - Nor Gate
+         
+--- 30 Oct
+     --Math
+        -proposition operator	
+        -logical operator
+
+     --English
+       -Communication
+       -assignment
+
+     --C#
+       -Staring again
+
+     --Python
+       -Introduction
+       -IDLE
+       -Operator
+       -token
+       -practical programing
+--- 1st Nov
+     --Math
+        -Equivalent proposition
+            -10 laws
+
+    --English
+        -speech
+        -assignment
+
+    --C#
+        -Characteristics of C#
+
+    --Python
+        -Operator
+
+    --Logic Design
+        -Number system
+--- 2nd Nov
+     --Math
+        -predicates and quantifiers
+
+
+    --English
+        -assignment
+
+    --Logic
+        -Lab (creation of logic gate)
+    
+--- 6th Nov 
+    --c# -Lab
+    --Python -Lab
+
+--- 7th Nov
+    --Math
+      - Rules of Inference
+    
+    --Logic
+        - code's
+         - BCD
+         - ASCII
+         - EBCDIC
+         - BOOLEN ALGEBRA
+
+    --C#
+        - over view of c#
+        - Commnand line arguments
+
+    -- English
+        - Types of Writing 
+        - difference between Technical Writing and General Writing
+
+    -- Python
+        - logical operator 
+        - bitwise operator
+     
+--- 8th Nov
+    --Math
+         -rules of Inference
+
+    --English
+        - Types of Writing
+
+    --Logic
+        -universal gate
+
+    --C#
+        -WAP using command line arguments
+
+    --Python
+        -variables
+
+
+--- 9th Nov
+    --Math
+        -intoduction to proofs
+
+    --English
+        -developing confidence in public speaking
+
+    --Logic
+        -practical
+            -half adder & full adder
+
+--- 12th Nov
+    --Math
+        -proof by contaposition
+        -proof by contadiction
+        -trival proofs
+        -proofs of equivalence
+
+    --Logic
+        -boolean ALGEBRA
+        -laws and proof   
+
+--- 13 Nov
+    -- Practical C#
+    -- Practical Python
+
+--- 14 Nov
+    --Math
+        -Sets
+
+    --Logic
+        -Sum of product(SOP)
+        -Binary vallue assignment
+
+    --C#
+        -token
+        -Literals
+        -variables
+        -identifiers
+
+    --English
+        -3 assept of public speaking
+
+ --- 15 Nov
+    --Math
+        -type of Sets
+
+    --English
+        -Exam
+
+    --Logic
+        -practical(simulation)
+        
+ --- 20 Nov
+    --practical
+    -practical C#
+    -practical Python
+    
+ --- 21 Nov
+    -- Math
+        - inverse function
+        - Composiyion
+        - celling and floor function and its properties
+
+    -- Logic
+        - Min term
+
+    -- C#
+        - operators and its precedency
+        - nested if statement
+        
+ --- 22 Nov
+    -- Math
+        - Prove to celling
+        - question disscution
+    
+    -- English
+        - Difference between listening and hearing
+
+    -- Logic
+        - POS
+        - Max term
+
+    -- C#
+        - switch case statement
+        
+    -- Python
+        - Special type of controll statement
+        
+
+ --- 26 Nov
+    -- Math
+    - sequence and (simulation
+    - recurrence relation
+
+    --Logic
+    - k-map
+
+    --C#
+    - use of goto statement
+
+    -- Python
+    -introduction to function
+
+ --- 27 Nov
+    -- Practical
+
+ --- 28 Nov
+    -- Math
+     - summation series 
+     - matrics
+
+    -- Python
+    - min 
+    - max 
+    - pow
+    - random
+    - math
+    - user defined function
+
+    -- C#
+     - looping
+      - do while loop
+      - for loop
+      - while loop
+
+ --- 29 Nov
+     -- Math
+        - multiplcation of matrix
+        - addition of matrix
+        - subtract of matrix
+        - transpose of matrix
+        - identity of matrix
+        - power of matrix
+        - symmatric and skew symmatric of matrix
+        - determinant of matrix
+        - inverse of matrix
+
+    -- logic
+        - minumization using k-map
+        - 2 variable and 3 variable and 4 variable
+
+    -- c#
+        - jumps in looping
+
+    -- Python
+        -key word as arguments
+        - default arguments
+
+ --- 30 Nov
+    -- Math
+        - gauss elimination method
+
+    -- Logic
+        - practica;
+
+ --- 2 Dec
+    --English
+        -Exam
+
+    --Python
+        -local and global -variables
+
+ --- 3 Dec
+    --Math
+        -0,1 matrix and bullian product
+
+    --C#
+        -Continuty
+        -leveled jumps
+
+    --Python
+        -local and global variables
+
+ --- 4 Dec
+    --practical C# and Python
+
+ --- 5 Dec
+    --Math
+        -Algorithms
+
+    --Logic
+        -creation of logic gates
+
+    --C#
+        -Methods in c#
+
+ --- 6 Dec
+    --Math
+        - Sortings
+            -Bulleb and insertion Sortings
+
+    --Logic
+        - creation logic circuit with truth table , k-map, and circuit
+
+    --Python
+        - string and Quize
+
+    --C#
+        - Nesting of -Methods
+        - Function with no parameter
+        - no return type with arguments / parameters
+
+ --- 7 Dec
+    --Math
+        - Big (o)notation
+        - insertion Sortings
+
+    --Logic
+        - practical 
+            -4bit parallal adder
+
+  --- 9 Dec
+    --English
+        -speech(debate)
+
+    --Python
+        -string   
+
+ --- 10 Dec
+    --C#
+        - Method parameter  
+            - call by vallue
+            - call by reference
+            - call by output parameter
+        - Method overloading
+        - Array
+
+    --Math
+        -Big omega
+        -Big theta   
+ --- 12 Dec
+    --Math
+        - Time Complexcity of linear search
+        - Time Complexcity of Binary search
+        - Time Complexcity of bubble Sortings
+
+    --Python
+        - LIST
+
+    --C#
+        - Travarsing of an array.
+
+    --English
+        - Persuasive techniques in speaking.
+ --- 13 Dec
+    --Math
+        - Time Complexcity of insertion short.
+
+    --English
+        - why preparation is important before speaking ?
+        - what is conversation ?
+
+    --Logic
+        - Decimal weighted code.
+        - adder
+            1.Half adder(2bit)
+            2.Full adder(3bit)
+            3.4bit parallel adder
+        - subtract
+        - multiplcation
+        - comparation
+        
+    --C#
+        - Insert an element at a given position.
+        - Insert an element at any given position.
+        - WAP findout wheather the element is present in the array or not.If it is present in the array then display the postion of the array.

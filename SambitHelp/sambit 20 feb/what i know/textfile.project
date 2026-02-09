@@ -1,0 +1,100 @@
+tech stack :-
+        is the combination of technologies used to develop an application. 
+        It includes the frontend (React, Vue.js, Angular), backend (Node.js, Spring Boot, Django), 
+        database (MySQL, PostgreSQL, MongoDB), API (REST, GraphQL), and hosting (AWS, Firebase, Vercel).
+        Each layer plays a role in ensuring the app functions efficiently.
+
+OS:-
+        An OS (Operating System) manages hardware, software, and system resources.
+        Examples include Windows, macOS, Linux, Android, and iOS. It handles processes, memory,
+        security, and user interaction.
+  
+UI :-
+
+        UI refers to the visual and interactive elements of an application that users interact with.
+        In a tech stack, the UI layer is usually part of the front-end and is built using:
+                1- Markup & Styling:-
+
+                        HTML (structure)
+                        CSS (styling)
+                        Tailwind CSS, Bootstrap (CSS frameworks)
+
+                2- JavaScript Frameworks/Libraries
+                        React.js
+                        Vue.js
+                        ANGULAR
+                        Svelte
+
+BACKEND:
+        Backend refers to the server-side of an application, handling logic, database interactions,
+        and API communication. It processes requests, manages data, and ensures security.
+        Common backend technologies include Node.js, Spring Boot, Django, and Express.js, 
+        with databases like MySQL, PostgreSQL, and MongoDB.
+
+        java Spring Boot Microservices is an architectural approach where applications are built as a 
+        collection of small, independent services. Spring Boot simplifies microservice development by 
+        providing features like embedded servers, auto-configuration, and minimal boilerplate code. 
+        It integrates well with Spring Cloud for service discovery, load balancing, and fault tolerance. 
+        Microservices communicate via REST APIs, gRPC, or messaging systems like Kafka. They offer scalability, 
+        flexibility, and faster deployment, making them ideal for modern cloud-based applications.
+
+API:-
+    API (Application Programming Interface) is a way for different software applications to communicate with each other.
+    APIs allow systems to send and receive data in a structured manner.
+
+    Types of APIs:
+
+       1- REST API (Representational State Transfer) – Uses HTTP methods (GET, POST, PUT, DELETE) and typically returns JSON.
+
+       2- SOAP API (Simple Object Access Protocol) – Uses XML for messaging and is more structured.
+
+       3- GraphQL API – Allows clients to request only the data they need, reducing over-fetching.
+
+        4- WebSockets – For real-time communication (e.g., chat applications).
+
+    APIs in a Tech Stack:-
+
+        APIs are used in both frontend and backend development:
+
+        Backend (API providers) – Spring Boot (Java), Node.js (Express), Django (Python), etc.
+
+        Frontend (API consumers) – React, Vue.js, Angular, etc., fetching data via fetch or Axios.
+
+DATABASE:-
+        DB (Database) is a structured collection of data used for storing, managing,
+        and retrieving information efficiently. It can be relational (SQL) like MySQL, PostgreSQL, 
+        and Oracle, or non-relational (NoSQL) like MongoDB and Cassandra.
+         Databases are essential for backend systems, enabling secure and scalable data handling in applications.
+
+KAFKA:
+        Apache Kafka is a distributed event streaming platform used for real-time data processing, 
+        messaging, and communication between microservices. 
+        It enables high-throughput, fault-tolerant, and scalable data streaming. 
+        Kafka consists of Producers (send data), Topics (store data), Consumers (receive data), and 
+        Brokers (manage communication). It is widely used for log aggregation, event-driven architectures, 
+        real-time analytics, and microservices communication.
+
+ENVIRONMENT:-
+        Environment in software development refers to the setup where applications run and are tested. 
+        Common environments include:
+
+        Development (Dev) – For coding and testing by developers.
+
+        Testing (QA/Staging) – For quality assurance and bug fixes.
+
+        Production (Prod) – The live environment where users interact with the application.
+
+        Each environment has different configurations, such as database connections, API keys, and logging levels, to ensure stability and security.
+
+DOCKER:-
+        Docker is a containerization platform that packages applications with dependencies for consistency across environments.
+        It enables portability, scalability, and efficiency. 
+        Key components include Dockerfile (build instructions), Images (templates), Containers (runtime instances), 
+        and Docker Compose (multi-container management).
+
+Kubernetes (K8s):-
+        Kubernetes (K8s) is an open-source container orchestration platform that automates deployment, 
+        scaling, and management of containerized applications. It handles load balancing, self-healing, 
+        and resource allocation, making it ideal for microservices and cloud-native applications.
+        Key components include Pods (smallest deployable units), Nodes (compute resources), and 
+        Services (networking for communication).

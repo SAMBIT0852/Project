@@ -1,0 +1,101 @@
+---
+    - Upper Bound
+    - Lower
+    - Average
+
+
+---
+    - Set of Instructions
+        - is it OS Specific?
+
+--- Types 
+    - Big-O notation
+        - Big-O describes how the runtime or memory grows as input size n grows.
+        - O(1) → Constant Time
+            - The operation takes the same amount of time no matter how big n is.
+            - Ex 
+                - accessing an array element by index
+        - O(log n) -> Logarithmic Time
+            - Each step reduces the problem size by a factor (like dividing by 2).
+            - We usually assume log base 2(because most algorithms like binary search divide the problem in half each step).
+                - when n = 64
+                    base = 2
+                        64= 2^6
+                        => log​(64) = 6
+                    base = 8
+                        64= 8^2
+                        => log​(64) = 2
+            - In Big-O we ignore the base because it only differ by a constant factor
+            - Ex
+                Binary Search
+                // find element in sorted array
+                while (low <= high) {
+                    int mid = (low + high) / 2;
+                    if (arr[mid] == target) return mid;
+                    if (arr[mid] < target) low = mid + 1;
+                    else high = mid - 1;
+                }
+        - O(sqrt(n)) ->Square Root Time
+            - Runtime grows with the square root of n.
+            - Happens in algorithms where you check factors/pairs
+            - At n = 64: O(log n) = 6, O(√n) = 8.
+            - Ex
+                //Checking if a number is prime
+                boolean isPrime(int n) {
+                    for (int i = 2; i <= Math.sqrt(n); i++) {
+                        if (n % i == 0) return false;
+                    }
+                    return true;
+                }
+        - O(n)
+            - traversing a list 
+        - O(n log n) → Linearithmic Time
+            - Common in efficient sorting algorithms like Merge Sort, Quick Sort
+            - 
+        - O(n²) → Quadratic Time
+            - Typical in nested loops.
+            - Bubble Sort
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < n; j++) {
+                    // work
+                }
+            }
+        - O(2ⁿ) → Exponential Time
+            - recursive Fibonacci (without memoization)
+            int fib(int n) {
+                if (n <= 1) return n;
+                return fib(n-1) + fib(n-2);
+            }
+        - O(n!) → Factorial Time
+            - Extremely slow, grows faster than exponential.
+            - generating all permutations of n items.
+--- Quick Growth Comparison
+    - How to figure out what goes in O() with example
+    If n = 16
+        O(1) → 1
+        O(log n) → 4
+        O(√n) → 4
+        O(n) → 16
+        O(n log n) → ~64
+        O(n²) → 256
+        O(2ⁿ) → 65,536
+        O(n!) → ~20 trillion
+
+    - Big-O Growth Intuition with Analogies
+        O(1) → grabbing one item off the shelf.
+        O(log n) → searching in a dictionary.
+        O(√n) → checking factors only up to √n.
+        O(n) → scanning everyone in a queue.
+        O(n log n) → sorting papers by splitting into piles.
+        O(n²) → everyone shakes hands with everyone.
+        O(2ⁿ) → all party schedules.
+        O(n!) → all seating arrangements.
+--- In real-world coding
+    - O(1), O(log n), O(n), O(n log n) are usually acceptable.
+    - O(n²) is okay for small inputs (n ≤ 10k).
+    - O(2ⁿ), O(n!) are only usable for very small n.
+    - 
+        O(1), O(log n), O(√n) grow very slowly.
+        O(n), O(n log n) grow steadily and are practical for large inputs.
+        O(n²) gets big quickly.
+        O(2ⁿ), O(n!) explode 🔥 even for small n.

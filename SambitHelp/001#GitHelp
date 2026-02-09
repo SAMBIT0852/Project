@@ -1,0 +1,19 @@
+--- Commands
+	- Git Setup
+		- git config --global user.email "sambitkumar0852@gmail.com"
+  	- git config --global user.name "sambit0852"
+
+		- git checkout master
+		- git pull -u origin master
+	- Git dayTodayCommands
+		- git branch
+		- git log
+		- git status
+		- git pull			
+		
+		//Always pull first before u want to commit or make some change else u will get conflict
+		- git status
+		- git add .			//. means current folder
+		- git commit -m "I will delever by sunday"
+		- git push
+	

@@ -1,0 +1,78 @@
+Java Popularity:
+	Consistently ranks high in programming indices.
+	Widely used in enterprise, mobile, and web development.
+
+JVM (Java Virtual Machine):
+	Platform for multiple languages (Kotlin, Scala, Groovy).
+	Core Java knowledge facilitates learning other JVM-based languages.
+
+Java Readability and Maintainability:
+	Emphasis on Java readability for collaborative coding.
+	Maintainability as a key factor for industry adoption.
+
+Key Java Features (Brief Mention):
+	Platform independence (WORA - Write Once, Run Anywhere).
+	Multithreading.
+	Collection API.
+	Exception handling.
+
+Java History:
+	Created in 1995 by Sun Microsystems (James Gosling).
+	Acquired by Oracle.
+	Regular updates (six-month cycle).
+
+Tools Required:
+	JDK (Java Development Kit).
+	VS Code (Visual Studio Code) - IDE.
+JDK Download:
+	Oracle JDK (or other open-source implementations).
+	Choosing an LTS (Long Term Support) version (Java 17).
+	Platform-specific downloads (Windows, Linux, macOS).
+
+
+VS Code Download:
+	Lightweight and versatile IDE.
+	Platform-specific downloads.
+JDK Installation (Windows):
+	Straightforward installation process.
+	Setting the PATH environment variable:
+	Locate the bin folder within the JDK installation.
+	Add the bin folder path to the system's PATH variable.
+	Explanation of the importance of the bin folder, and what the JavaC 	application is.
+	Verifying installation: java --version, javac --version in the command 	prompt.
+
+VS Code Installation:
+	Simple installation procedure.
+	Verifying JDK within VS Code's terminal.
+VS Code Initial Setup:
+	Choosing a theme.
+	Opening a project folder.
+	Installing Java extensions (optional, but recommended).
+
+First Java Code:
+
+	Creating a Java File:
+	Creating Hello.java within the project folder.
+	Importance of the .java extension.
+	Using JShell (Java 9+):
+	Interactive Java shell for experimentation.
+	Demonstrating basic arithmetic and System.out.println().
+	Explanation of the system.out.println() command.
+	Clarification that Jshell is for testing, not full application 	development.
+	Understanding the Java Execution Process:
+	JVM (Java Virtual Machine) as the runtime environment.
+	Platform independence through JVM.
+	Compilation process: Java code to bytecode.
+	Java Compiler (javac) role.
+	Visual representation of the Java code, JavaC, Bytecode, and JVM.
+	The main Method:
+	Entry point for Java applications.
+	Specific signature: public static void main(String[] args).
+	Brief explanation of each keyword in the main method signature.
+
+
+
+
+
+
+
