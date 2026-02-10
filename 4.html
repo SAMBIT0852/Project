@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Booking System</title>
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+  <style>
+    body {
+      background-image: url(f.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      color: white;
+    }
+    dt {
+      margin-bottom: 20px;
+    }
+    .movie-image {
+      max-width: fit-content;
+      height: auto;
+      border-radius: 10px;
+    }
+    .modal-content {
+      background-color: rgba(0, 0, 0, 0.85);
+      color: white;
+    }
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.9) !important;
+    }
+  </style>
+  <script>
+    function AddClick() {
+      document.getElementById("detailsContainer").style.display = "block";
+      document.getElementById("lblName").innerHTML = document.getElementById("txtName").value;
+      document.getElementById("lblPrice").innerHTML = document.getElementById("txtPrice").value;
+      document.getElementById("lblCity").innerHTML = document.getElementById("lstCities").value;
+      const selectedMovie = document.getElementById("lstMovie").value;
+      document.getElementById("lblMovie").innerHTML = selectedMovie;
+      document.getElementById("lblTime").innerHTML = document.getElementById("lstTime").value;
+      document.getElementById("lblSeats").innerHTML = document.getElementById("lstSeats").value;
+      document.getElementById("lblDate").innerHTML = document.getElementById("lstDate").value;
+      document.getElementById("lblLang").innerHTML = document.getElementById("lstLang").value;
+
+     
+      const poster = document.getElementById("moviePoster");
+      const posters = {
+        "Inception": "1.jpg",
+        "Avengers": "image.jpg",
+        "RRR": "3.jpg",
+        "Jawan": "2.avif",
+       
+      };
+      if (posters[selectedMovie]) {
+        poster.src = posters[selectedMovie];
+        poster.style.display = "block";
+      } else {
+        poster.src = "";
+        poster.style.display = "none";
+      }
+    }
+
+    function EditClick() {
+      document.getElementById("btnAdd").innerHTML = "Save";
+      document.getElementById("btnAdd").className = "btn btn-success";
+    }
+  </script>
+</head>
+<body class="container-fluid">
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">MovieBook</a>
+      <div class="d-flex">
+        <select id="lstMovie" class="form-select mx-2">
+          <option selected>Choose Movie</option>
+          <option>Inception</option>
+          <option>Avengers</option>
+          <option>RRR</option>
+          <option>Jawan</option>
+        </select>
+        <select id="lstTime" class="form-select mx-2">
+          <option selected>Show Time</option>
+          <option>10:00 AM</option>
+          <option>1:00 PM</option>
+          <option>6:00 PM</option>
+          <option>9:00 PM</option>
+        </select>
+        <select id="lstSeats" class="form-select mx-2">
+          <option selected>No. of Seats</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </select>
+        <select id="lstDate" class="form-select mx-2">
+          <option selected>Select Date</option>
+          <option>2025-07-15</option>
+          <option>2025-07-16</option>
+          <option>2025-07-17</option>
+        </select>
+        <select id="lstLang" class="form-select mx-2">
+          <option selected>Language</option>
+          <option>English</option>
+          <option>Hindi</option>
+          <option>Telugu</option>
+        </select>
+      </div>
+    </div>
+  </nav>
+
+ 
+  <button class="btn btn-primary mt-3" data-bs-target="#register" data-bs-toggle="modal">
+    Book Now
+  </button>
+
+ 
+  <div class="modal fade" id="register">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Book Movie Ticket</h2>
+          <button data-bs-dismiss="modal" class="btn-close"></button>
+        </div>
+        <div class="modal-body">
+          <dl>
+            <dt>Customer Name</dt>
+            <dd><input id="txtName" class="form-control" type="text" /></dd>
+            <dt>Amount</dt>
+            <dd><input id="txtPrice" class="form-control" type="text" /></dd>
+            <dt>City</dt>
+            <dd>
+              <select id="lstCities" class="form-select">
+                <option>Delhi</option>
+                <option>Mumbai</option>
+              </select>
+            </dd>
+          </dl>
+          <img id="moviePoster" src="" class="movie-image" alt="Movie Poster" style="display:none;">
+        </div>
+        <div class="modal-footer">
+          <button id="btnAdd" onclick="AddClick()" data-bs-dismiss="modal" class="btn btn-primary">
+            Book Ticket
+          </button>
+          <button data-bs-dismiss="modal" class="btn btn-danger">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+  <div id="detailsContainer" style="display: none">
+    <h3 class="mt-4">Booking Details</h3>
+    <dl class="row">
+      <dt class="col-3">Name</dt>
+      <dd class="col-9" id="lblName"></dd>
+      <dt class="col-3">Amount</dt>
+      <dd class="col-9" id="lblPrice"></dd>
+      <dt class="col-3">City</dt>
+      <dd class="col-9" id="lblCity"></dd>
+      <dt class="col-3">Movie</dt>
+      <dd class="col-9" id="lblMovie"></dd>
+      <dt class="col-3">Show Time</dt>
+      <dd class="col-9" id="lblTime"></dd>
+      <dt class="col-3">Seats</dt>
+      <dd class="col-9" id="lblSeats"></dd>
+      <dt class="col-3">Date</dt>
+      <dd class="col-9" id="lblDate"></dd>
+      <dt class="col-3">Language</dt>
+      <dd class="col-9" id="lblLang"></dd>
+    </dl>
+    <button onclick="EditClick()" data-bs-target="#register" data-bs-toggle="modal" class="btn btn-link">
+      <span class="bi bi-pen-fill"></span> Edit
+    </button>
+  </div>
+
+  
+  <footer class="container mt-5">
+    <p><a class="text-secondary" href="#">Questions? Contact us.</a></p>
+    <div class="row row-cols-2 row-cols-md-4 g-3">
+      <div class="col"><a href="#" class="text-secondary">FAQ</a></div>
+      <div class="col"><a href="#" class="text-secondary">Help Center</a></div>
+      <div class="col"><a href="#" class="text-secondary">Terms of Use</a></div>
+      <div class="col"><a href="#" class="text-secondary">Privacy</a></div>
+      <div class="col"><a href="#" class="text-secondary">Cookie Preferences</a></div>
+      <div class="col"><a href="#" class="text-secondary">Corporate Information</a></div>
+    </div>
+  </footer>
+
+  <script src="../node_modules/jquery/dist/jquery.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
