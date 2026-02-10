@@ -117,6 +117,11 @@ Object Oriented Programing(OOP):
                                     - When the method is called java decide which method to run depending upon the argument given.
                                     - It is achived by two way by assiging different parameter with in the methds or by changing the data types.
 
+            2- Method Overriding:- Means it allow a specific subclass to impliments a method in its own way that is already defined in the parent class.
+                                - It is used to achive the runtime Polymorphisim.
+                                - For Method Overriding some rules have to be follow such as 
+                                    method name should be same, method parameters should be same, Must be a Is-A relationship, final method in the super class can not be override and static method can not be override. 
+
                         
             
                         
