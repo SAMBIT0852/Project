@@ -21,7 +21,7 @@ OOP makes programs easy to understand, reusable and easy to maintain
 Java PATH Environment Variable:-
 ------------------------------
 What Is Java PATH?
-    The Java PATH is an environment variable that says the operating system where  is the Java tools (java, javac) are located. It allows  to run Java commands without typing the full path every time.
+    The Java PATH is an environment variable that says the operating system where  is the Java tools (java, javac) are located.It allows  to run Java commands without typing the full path every time.
 Why Is Java PATH Required?
     The OS does not know where Java is installed. So, we set the PATH to help the system find java and javac commands.
 When Is Setting PATH Not Required?
