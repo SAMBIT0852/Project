@@ -96,7 +96,7 @@ Object Oriented Programing(OOP):
     It is of Fourtypes Such as :
 
     1.Inheritance:- When one class acquires the properties and behaviour of the super class or parent 
-                    class is known as Inheritance it is like a parent child relation ship.
+                    class is known as Inheritance it is like a parent child relation ship. It Represent a strong Is-A relation ship.
 
                     -It is of 5 types such as :-
                         -Single Inheritance:- when one base class is derived from one parent class only.
@@ -107,6 +107,19 @@ Object Oriented Programing(OOP):
                         -Hiarchical Inheritance:- When multiple derived class is in herit from the single
                                                     base class.
                         -Hybrid Inheritance:- Combination of tweo or more types of inheritance.
+
+        -Aggrigation:- When a class contains the reference of other class is called as aggrigation.
+                        It represent a week "Has-A" relationship.
+
+    2.Polymorphisim:-
+            1- Method Overloading:- Means creating multiple method inside a class with same name but 
+                                    different parameters.
+                                    - When the method is called java decide which method to run depending upon the argument given.
+                                    - It is achived by two way by assiging different parameter with in the methds or by changing the data types.
+
+                        
+            
+                        
 
 
 
