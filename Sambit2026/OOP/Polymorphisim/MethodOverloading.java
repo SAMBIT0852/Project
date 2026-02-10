@@ -15,6 +15,6 @@ public class MethodOverloading {
         MethodOverloading obj = new MethodOverloading();
 
         obj.sum(10, 20);       
-        obj.sum(10, 20, 30);    
+        obj.sum(10, 20, 40);    
     }
 }
